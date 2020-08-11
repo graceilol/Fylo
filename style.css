@@ -1,1 +1,54 @@
-
+:root {
+  /* Colors */
+  /* Primary */
+  --very-dark-blue: hsl(243, 87%, 12%);
+  --desaturated-blue: hsl(238, 22%, 44%);
+  /* Accent */
+  --bright-blue: hsl(224, 93%, 58%);
+  --moderated-cyan: hsl(170, 45%, 43%);
+  /* Neutral */
+  --light-grayish-blue: hsl(240, 75%, 98%);
+  --light-gray: hsl(0, 0%, 75%);
+  /* Fonts */
+  /* Headings, Call-to-actions, Header Navigation */
+  --font-raleway: "Raleway", sans-serif;
+  /* Body */
+  --font-open-sans: "Open Sans", sans-serif;
+  /* Font Wheight */
+  --regular: 400;
+  --bold: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font-open-sans);
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+/* Header */
+/* Nav Bar */
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 30px 0px;
+}
+.nav-img img {
+  height: 30px;
+  width: 110px;
+}
+.nav-links ul {
+  display: flex;
+}
+.nav-links a {
+  color: var(--very-dark-blue);
+  margin: 10px;
+}
